@@ -11,7 +11,7 @@ import os
 import shutil
 
 # initialize the camera and grab a reference to the raw camera capture. 
-camera = PiCamera() 
+camera = cv2.VideoCapture("/dev/video1")
 camera.resolution = (680, 420) 
 #camera.resolution = (2304, 1296) 
 # any higher 16:9 resolutions results in "out of resources" error. (2304, 1296)
