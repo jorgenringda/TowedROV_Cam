@@ -1,4 +1,3 @@
-# @author Towed ROV 2019 https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2564356
 #!/usr/bin/python
 import ms5837
 import time
